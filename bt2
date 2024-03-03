@@ -1,0 +1,3 @@
+function remainder($a, $b) {
+    echo "Kết quả chia lấy phần dư của $a cho $b là: " . ($a % $b) . "\n";
+}
