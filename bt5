@@ -1,4 +1,4 @@
-function maxOfThree($a, $b, $c) {
+function giatrilonnhat($a, $b, $c) {
     $max = max($a, $b, $c);
     echo "Giá trị lớn nhất trong $a, $b, $c là: $max\n";
 }
