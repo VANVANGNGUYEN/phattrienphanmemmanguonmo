@@ -1,0 +1,7 @@
+# phattrienphanmemmanguonmo
+phattrienphanmemmanguonmo
+
+function absoluteValue($n) {
+    echo "Giá trị tuyệt đối của $n là: " . abs($n) . "\n";
+}
+
