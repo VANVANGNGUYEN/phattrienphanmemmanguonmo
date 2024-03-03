@@ -1,0 +1,12 @@
+function solveLinearEquation($a, $b) {
+    if ($a == 0) {
+        if ($b == 0) {
+            echo "Phương trình có vô số nghiệm\n";
+        } else {
+            echo "Phương trình vô nghiệm\n";
+        }
+    } else {
+        $x = -$b / $a;
+        echo "Nghiệm của phương trình $a*x + $b = 0 là: x = $x\n";
+    }
+}
